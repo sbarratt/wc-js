@@ -1,11 +1,12 @@
 # wc-js
 Javascript Word Count Library
 
-tests in tests
-open tests/tests.html
+open tests/tests.html to run tests
 
 To include in your project, add this to your index.html
 
-<code>\<script src="pathtowordcount"\>\<\/script\></code>
+<code>\<script src="pathtowordcount"\>\</script\></code>
+
+To get stats for a javascript string:
 
 <code>wc.getStats(text)</code>
