@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Word Count Testing</title>
+</head>
+
+<body>
+	<div id="test-results">
+
+	</div>
+	<button type="button" onclick="update()">Rerun Tests</button> <br />
+
+	<!-- Include the necessary Javascript libraries -->
+	<script src="../wordcount.js"></script>
+
+	<script src="test.js"></script>
+	<script>
+		tests();
+		update = function() {
+			tests()
+		}
+	</script>
+</body>
+</html>
